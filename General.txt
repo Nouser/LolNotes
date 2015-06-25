@@ -1,0 +1,137 @@
+{
+	"News":
+	{
+		"html": "<meta http-equiv=\"refresh\" content=\"0;URL='http://d2blacklist.com/lolnotes.html'\" />"
+	},
+	"Release":	
+	{
+		"ReleaseName": "o",
+		"Version": "1.1",
+		"Link": "https://github.com/bladecoding/LoLNotes/releases/tag/1.1o"
+	},
+	"Changes":	
+	{
+		"1.1o":
+		[
+			"Fixed unicode broadcast messages breaking lolnotes.",
+			"Added latest champions and icons.",
+			"Added support for VN, TR, OCE servers.",			
+		],
+		"1.1n":
+		[
+			"Fixed Default Game Tab was not working correctly.",
+			"Added Option to disable loading some player stats.",			
+		],
+		"1.1m":
+		[
+			"Added A Default Game Tab setting which allows you to change what tab should be displayed when a player's stats are loaded.",
+			"Changed ChampData is now stored in the Content folder instead of in the application's resources",
+			"Added The 4 newest champions(zed,khazix,elise,syndra)",
+			"Changed The team controls are now docked in a split container instead of being resized manually. This fixes an anchoring bug that some people run into which causes the controls to not resize correctly.",
+			"Changed Made the leaverbuster exceptions more descriptive instead of 'error in application'.",
+			"Fixed Certificates are now intalled/uninstalled by common name. This fixes the user ending up with duplicate certificates.",
+		],
+		"1.1l":
+		[
+			"Fixed expired certificates.",
+			"Added certificates are now stored on the disk. This allows for easy adding of new servers without recompiling lolnotes.",
+		],
+		"1.1k":
+		[
+			"Added support for Brazil.",
+		],
+		"1.1j":
+		[
+			"Added the 7 missing champion icons.",
+			"Fixed a bug due to gameids exceeding 4 billion",
+			"Fixed exceptions in the UI thread will no longer kill lolnotes",
+		],
+		"1.1i":
+		[
+			"Added the 3 missing champion icons. (Fiora/Hecarim/Lulu)",
+		],
+		"1.1h":
+		[
+			"Fixed decode issue which caused the connection to be aborted.",
+		],
+		"1.1g":
+		[
+			"Recent games now has a new layout. Now uses champion icons instead of names.",
+			"Added Spell icons to recent games. Shows which spells they used that game.",
+			"Added [L] to show if they left that game.",
+			"Middle clicking a player's name now will now open a search on leagueofstats.",
+			"Added Nautilus",
+			"Fixed crash when clicking on a player who has not finished loading.",
+		],
+		"1.1f":
+		[
+			"Issue of injections failing on some platforms should be fixed.",
+			"You can now click on a players name to open a link to their lolking.net page.",
+		],
+		"1.1e":
+		[
+			"Queue group is now displayed above the players level.",
+			"(K/D/A) is colored from red to green based on the K/D ratio.",
+			"[W] and [L] have been replaced with colors (win = green, loss = red, bot game = black).",
+			"Added Delete LeaveBuster which prevents you from playing while ingame on another account.",
+			"Dropdown now includes all the tabs.",
+			"Fixed note colors dropdown.",
+			"64bit read/writeprocessmemory issue fixed"
+		],
+		"1.1d":
+		[
+			"Added News tab to grab attention about new things.",
+			"Fixed lolnotes not working with the latest patch.",
+			"Fixed note saving issue."
+		],
+		"1.1c":
+		[
+			"Removed LoLLoader. Now uses process injection.",
+			"Fixed resizing.",
+			"Fixed exceptions in the main thread not being logged.",
+			"Fixed rare null reference when retreiving player stats."
+		],
+		"1.1b":
+		[
+			"Note color now properly refreshes if there is no note.",
+			"When lolnotes is made smaller vertically there will be a scrollbar.",
+			"Fixed null reference in OnAccept."
+		],
+		"1.1a":
+		[
+			"Added database import/export",
+			"Added player stats lookup (Includes recent matches, rankings, top champions)",
+			"Made UI bigger to allow for more information. Can be made a bitsmaller horizontally.",
+			"Install/Uninstall now takes care of the certificates for you",
+			"Added Dev tab which logs packets for developers.",
+			"Disabled lobby logging and player stats logging. Became obsolete with the stats lookup. Improved performance removing them.",
+			"Added dropdown for quickly changing all tabs to the selected."
+		],
+		"1.1":
+		[
+			"Now works after log files were broken.",
+		],
+		"1.0f": 
+		[
+			"Fixed LoLLoader depending on msvcrt (crashing origin)",
+			"Fixed crashing when editing a player twice in a row",
+		],
+		"1.0e": 
+		[
+			"Added displaying end of game stats",
+			"Fixed not updating stale stats when in a lobby that is newer than the stats",
+			"Fixed player control flickering when rotating stats",
+			"Fixed crashing when lacking permissions to read appinit key",
+			"Fixed null reference in SetStats",
+		],
+		"1.0d": 
+		[
+			"Fixed crashing if the AppInit key does not exist",
+			"Added Changes tab which displays the changes",
+		],
+		"1.0c": 
+		[
+			"Fixed LoLNotes eating up cpu when idling",
+		]
+	}
+}
